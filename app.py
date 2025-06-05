@@ -403,7 +403,6 @@ with st.container(border=True):
             df[df['Status Rocket'] == 'Active']['Country'].value_counts().head(10),
             x=df[df['Status Rocket'] == 'Active']['Country'].value_counts().head(10).index,
             y=df[df['Status Rocket'] == 'Active']['Country'].value_counts().head(10).values,
-            title='Top 10 Países com mais Foguetes Ativos',
             labels={'x': 'País', 'y': 'Número de Foguetes Ativos'}
         )
         fig_ativos_pais.update_layout(
@@ -427,7 +426,6 @@ with st.container(border=True):
             df[df['Status Rocket'] == 'Retired']['Country'].value_counts().head(10),
             x=df[df['Status Rocket'] == 'Retired']['Country'].value_counts().head(10).index,
             y=df[df['Status Rocket'] == 'Retired']['Country'].value_counts().head(10).values,
-            title='Top 10 Países com mais Foguetes Aposentados',
             labels={'x': 'País', 'y': 'Número de Foguetes Aposentados'}
         )
         fig_aposentados_pais.update_layout(
