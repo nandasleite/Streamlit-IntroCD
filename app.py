@@ -16,7 +16,7 @@ st.set_page_config(
 st.sidebar.subheader("🚀")
 st.sidebar.subheader("Análise Exploratória dos Dados de Missões Espaciais")
 st.sidebar.write("Este permite explorar dados de missões espaciais, incluindo informações sobre empresas, locais de lançamento, datas e status das missões, de 1957 a 2020.")
-st.sidebar.markdown("**Fernanda Leite e Maria Fernanda**")
+st.sidebar.markdown("**Fernanda Leite**")
 
 # ------------------------------------
 
